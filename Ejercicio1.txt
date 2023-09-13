@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main() {
+  float cm,pulgadas;
+  std::cout<<"Ingrese una medida en centimetros: ";
+  std::cin>>cm;
+  pulgadas=(cm/2.54);
+  std::cout<<"La medida ingresada en pulgadas es: "<<pulgadas<<" pulgadas";
+}

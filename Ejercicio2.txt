@@ -1,0 +1,9 @@
+#include <iostream>
+int main () {
+  for (int i=1;i<=20;i++){
+    std::cout<<i;
+    if (i%3==0){
+      std::cout<<" Es multiplo de 3" <<std::endl;
+    } else std::cout<<" No es multiplo de 3"<<std::endl;
+}return 0;
+}
